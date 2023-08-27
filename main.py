@@ -19,6 +19,8 @@ tipIds = [4, 8, 12, 16, 20]
 
 video = cv2.VideoCapture(0)
 
+
+
 with mp_hand.Hands(min_detection_confidence=0.5, min_tracking_confidence=0.5) as hands:
     while True:
         keyPressed = False
